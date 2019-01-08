@@ -1,6 +1,6 @@
 extends layout.pug
 
-block content 
+block content
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
@@ -8,7 +8,7 @@ block content
       .cell.small-6.medium-9.large-9
 
         //- Add your name.
-        h1 Name
+        h1 Johnny Louifils
 
         //- Feel free personalize the title below
         p.lead.text-light
@@ -17,31 +17,52 @@ block content
         //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
           p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+            | I am Treehouse  Full Stack JavaScript Tech-Degree Student
+          P
+            | This opportunity came across to me in May of 2018 when Ryan Carson, founder of treehouse, The Boys & Girls Club of Metro Atlanta, and Mailchimp awarded me a scholarship
+          P
             | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
 
         //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
-        ul
-          li Express
-          li Other cool stuff
-          li Listing my skills
-          li Etc.
-          li Etc. 
-          li Etc.
+        ul.fa-ul
+          li
+            span.fa-li
+              i.fas.fa-check-square
+            | Express
+          li
+            span.fa-li
+              i.fas.fa-check-square
+          | jQuery
+          li
+          span.fa-li
+            i.fas.fa-check-square
+          | JavaScript
+          li
+          span.fa-li
+            i.fas.fa-check-square
+          | Node.js
+          li
+          span.fa-li
+            i.fas.fa-check-square
+          | API
+          li
+          span.fa-li
+            i.fas.fa-check-square
+          | HTML & CSS
         h6 Contact Info
 
         //- Add your own contact info
         ul
-          li 555-555-1234
-          li email@email.com
+          li.contact-info.text-center
+           | 678-599-3206
+          li.contact-info.text-center
+           | johnnylouifils1919@gmail.com
 
         //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='') LinkedIn
-        a.button.expanded(href='') GitHub
-        a.button.expanded(href='') Twitter
+        //-a.button.expanded(href='') LinkedIn
+        a.button.expanded(href='https://github.com/jlouifils') GitHub
+        a.button.expanded(href='https://www.instagram.com/j.louifils/?hl=en') Instagram
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
-  

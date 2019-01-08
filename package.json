@@ -1,0 +1,24 @@
+{
+  "name": "Treehouse-project-six-",
+  "version": "1.0.0",
+  "description": "I created a portfolio showing my other projects using Node.js, Express and Pug, setting up a server, handling requests, working with server-side JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlouifils/Treehouse-project-six-"
+  },
+  "author": "Johnny Louifils",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpaceXar20/static_node_and_express_site-project-6/issues"
+  },
+  "homepage": "https://github.com/SpaceXar20/static_node_and_express_site-project-6#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
