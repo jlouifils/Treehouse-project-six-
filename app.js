@@ -1,23 +1,23 @@
 const express = require('express');
-const bodyParser = require('body-parser');
-const cookieParser = require('cookie-parser');
-
 
 const app = express();
+
+const bodyParser = require('body-parser');
+
+const cookieParser = require('cookie-parser');
 
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(cookieParser());
 
+app.use('/static',express.static(public));
+
 app.set('view engine', 'pug');
 
-app.get('/about',(req, res) =>{
-  res.render('about');
-});
+const routes = require('./routes/index.js');
 
-app.get('/index',(req, res) =>{
-  res.render('index');
-});
+app.use(routes);
+
 
 app.use((req, res, next) =>{
   const error = new Error('Not Found');
