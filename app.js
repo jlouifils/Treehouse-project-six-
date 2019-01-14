@@ -35,5 +35,5 @@ app.use((error, req, res, next) => {
 })
 //-setup the development server using the listen method
 app.listen(3000, () => {
-console.log()
+console.log(app.listen)
 });
