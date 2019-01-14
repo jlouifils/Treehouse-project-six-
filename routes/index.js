@@ -6,6 +6,9 @@ const express = require('express');
 const data = require('../data/projectsData.json')
 //-Set Routes, use router constructor to create a a router instance
 const router = express.Router();
+//-redirct route to index
+router.get('/',(req, res) =>{
+  res.render('index');
 //-An "about" route (/about) to render the "About" page
 router.get('/about',(req, res) =>{
   res.render('about');
@@ -13,6 +16,7 @@ router.get('/about',(req, res) =>{
 //-An "index" route (/) to render the "Home" page
 router.get('/index',(req, res) =>{
   res.render('index');
+
   res.app.locals = data.projects;
 });
 //-Dynamic "project" routes (/project or /projects) based on the id of the project
