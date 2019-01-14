@@ -8,7 +8,8 @@ const data = require('../data/projectsData.json')
 const router = express.Router();
 //-redirct route to index
 router.get('/',(req, res) =>{
-  res.render('index');
+  res.render('index')
+});
 //-An "about" route (/about) to render the "About" page
 router.get('/about',(req, res) =>{
   res.render('about');

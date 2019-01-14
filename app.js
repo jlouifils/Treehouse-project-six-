@@ -22,12 +22,11 @@ app.use(routes);
 // catch 404 and passes to error handler
 app.use((req, res, next) =>{
   const error = new Error('Not Found');
-  error.status =404;
+  error.status = 404;
   next(error);
 });
 //error handler
-app.use((error, req, res, next) =>{
-    res.locals.error = error;
+app.use((error, req, res, next) => {
     res.status(error.status || 500);
     res.render('error', {
       message: error.message,
