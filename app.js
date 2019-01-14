@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 // ose cookieParser in app to store data and make server to remember data
 app.use(cookieParser());
 // use express.static to serve static assets
-app.use('/static',express.static(public));
+app.use('/static',express.static('public'));
 //told express to use pug
 app.set('view engine', 'pug');
 // import routs from index,js
@@ -29,7 +29,10 @@ app.use((req, res, next) =>{
 app.use((error, req, res, next) =>{
     res.locals.error = error;
     res.status(error.status || 500);
-    res.render('error' error);
+    res.render('error', {
+      message: error.message,
+      error: {}
+    });
 })
 //-setup the development server using the listen method
 app.listen(3000, () => {

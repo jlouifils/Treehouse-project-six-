@@ -5,7 +5,7 @@ const express = require('express');
 //-require Json file data
 const data = require('../data/projectsData.json')
 //-Set Routes, use router constructor to create a a router instance
-const.router = express.Router();
+const router = express.Router();
 //-An "about" route (/about) to render the "About" page
 router.get('/about',(req, res) =>{
   res.render('about');
