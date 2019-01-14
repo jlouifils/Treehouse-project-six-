@@ -6,17 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jlouifils/Treehouse-project-six-.git"
-  },
   "keywords": [],
   "author": "Johnny Louifils",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jlouifils/Treehouse-project-six-/issues"
-  },
-  "homepage": "https://github.com/jlouifils/Treehouse-project-six-#readme",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
