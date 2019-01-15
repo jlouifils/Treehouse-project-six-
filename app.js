@@ -20,19 +20,16 @@ const routes = require('./routes/index.js');
 app.use(routes);
 
 // catch 404 and passes to error handler
-app.use((req, res, next) =>{
+app.use((req, res, next) => {
   const error = new Error('Not Found');
   error.status = 404;
   next(error);
 });
 //error handler
 app.use((error, req, res, next) => {
-    res.status(error.status || 500);
-    res.render('error', {
-      message: error.message,
-      error: {}
-    });
-})
+    res.locals.error = error;
+    res.render('error')
+});
 //-setup the development server using the listen method
 app.listen(3000, () => {
 console.log(app.listen)
