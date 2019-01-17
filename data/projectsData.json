@@ -8,7 +8,7 @@
           "technologies": ["HTML", "CSS", "JAVASCRIPT"],
           "live_link": "https://jlouifils.github.io/treehouse-project/",
           "github_link": "https://github.com/jlouifils/treehouse-project",
-          "image_urls": ["images/project-0-main-pic.png", "../static/images/project-0-landscape-pic.png", "../static/images/project-0-landscape-pic-1.png", "../static/images/project-0-landscape-pic-3.png"]
+          "image_urls": ["images/project-0-main-pic.png", "../static/images/project-0-landscape-pic-1.png", "../static/images/project-0-landscape-pic-2.png", "../static/images/project-0-landscape-pic-3.png"]
       },
       {
           "id": "1",
@@ -17,7 +17,7 @@
           "technologies": ["HTML", "CSS", "JAVASCRIPT"],
           "live_link": "https://jlouifils.github.io/Treehouse-project-2/",
           "github_link": "https://github.com/jlouifils/Treehouse-project-2",
-          "image_urls": ["images/project-1-main-pic.png", "../static/images/project-1-landscape-pic.png", "../static/images/project-1-landscape-pic-2.png", "../static/images/project-1-landscape-pic-3.png"]
+          "image_urls": ["images/project-1-main-pic.png", "../static/images/project-1-landscape-pic-1.png", "../static/images/project-1-landscape-pic-2.png", "../static/images/project-1-landscape-pic-3.png"]
       },
       {
           "id": "2",
@@ -26,7 +26,7 @@
           "technologies": ["HTML", "CSS", "JAVASCRIPT", "JQUERY"],
           "live_link": "https://jlouifils.github.io/Third-TreeHouse-project/",
           "github_link": "https://github.com/jlouifils/Third-TreeHouse-project",
-          "image_urls": ["images/project-2-main-pic.png", "../static/images/project-2-landscape-pic.png", "../static/images/project-2-landscape-pic-2.png", "../static/images/project-2-landscape-pic-3.png"]
+          "image_urls": ["images/project-2-main-pic.png", "../static/images/project-2-landscape-pic-1.png", "../static/images/project-2-landscape-pic-2.png", "../static/images/project-2-landscape-pic-3.png"]
       },
       {
           "id": "3",
@@ -35,7 +35,7 @@
           "technologies": ["HTML", "CSS", "JAVASCRIPT, JQUERY"],
           "live_link": "https://jlouifils.github.io/Fourth-Treehouse-project/",
           "github_link": "https://github.com/jlouifils/Fourth-Treehouse-project",
-          "image_urls": ["images/project-3-main-pic.png", "../static/images/project-3-landscape-pic.png", "../static/images/project-3-landscape-pic-2.png", "../static/images/project-3-landscape-pic-3.png"]
+          "image_urls": ["images/project-3-main-pic.png", "../static/images/project-3-landscape-pic-1.png", "../static/images/project-3-landscape-pic-2.png", "../static/images/project-3-landscape-pic-3.png"]
       },
       {
           "id": "4",
@@ -44,7 +44,7 @@
           "technologies": ["https://randomuser.me/", "HTML", "CSS", "JAVASCRIPT, JQUERY"],
           "live_link": "https://jlouifils.github.io/fifth-treehouse-project/",
           "github_link": "https://github.com/jlouifils/fifth-treehouse-project",
-          "image_urls": ["images/project-4-main-pic.png", "../static/images/project-4-landscape-pic.png", "../static/images/project-4-landscape-pic-2.png", "../static/images/project-4-landscape-pic-3.png"]
+          "image_urls": ["images/project-4-main-pic.png", "../static/images/project-4-landscape-pic-1.png", "../static/images/project-4-landscape-pic-2.png", "../static/images/project-4-landscape-pic-3.png"]
       }
-    ]    
+    ]
 }
