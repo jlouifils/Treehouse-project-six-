@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 // ose cookieParser in app to store data and make server to remember data
 app.use(cookieParser());
 // use express.static to serve static assets
-app.use('static',express.static('public'));
+app.use('/static',express.static('public'));
 //told express to use pug
 app.set('view engine', 'pug');
 // import routs from index,js
