@@ -28,7 +28,7 @@ router.get('/project/:id', (req, res) => {
   //this variable represents the id of the project
   const { id } = req.params;
 
-  res.render('project', {projects, id})
+  res.render('project', {id, projects})
 });
 
 module.exports = router;
